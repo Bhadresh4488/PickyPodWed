@@ -1,0 +1,916 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		18296AF2EDEBD6127A7FE47A82DD5F66 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		1ABC846B61FBDB5B74E72300F4F2425E /* Pods-PickyPodWed_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2C633D5A793BB98AAEB6F76A0E22DE5A /* Pods-PickyPodWed_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4E0367E89019E71DABAE07EFC744635B /* Pods-PickyPodWed_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A6DB1CCF40A043D77F33944A56310D7F /* Pods-PickyPodWed_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		575138C721A68A8100213B8E /* PickyTesterPod.swift in Sources */ = {isa = PBXBuildFile; fileRef = 575138C621A68A8100213B8E /* PickyTesterPod.swift */; };
+		5751390621A68D7600213B8E /* .gitkeep in Resources */ = {isa = PBXBuildFile; fileRef = 5751390521A68D7600213B8E /* .gitkeep */; };
+		6C5A6C64E473170DB8566065427D3E59 /* PickyPodWed-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E841FC605E901F1CD157CC5970E365AF /* PickyPodWed-dummy.m */; };
+		818E1299545E6997175F23385CBB1C4F /* Pods-PickyPodWed_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 95A9A871CF196F0D0143BAC722F0F8F4 /* Pods-PickyPodWed_Tests-dummy.m */; };
+		88516C05B0F1692B5161402A3E3560F5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		9333B40E9081187F62ADCB6D54EC731C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		9F9CE7A122175E3B9DE6B07C5D7FE100 /* Pods-PickyPodWed_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EF671A8B09920770F80CFA0FFFBFA5D1 /* Pods-PickyPodWed_Example-dummy.m */; };
+		EF25DBCABC9ED2F1A423D7BFBC2200A1 /* PickyPodWed.bundle in Resources */ = {isa = PBXBuildFile; fileRef = D502CF05753CEA94DF554DD9BEF1D85B /* PickyPodWed.bundle */; };
+		F69F25CCADC395702B48303DAAE0921D /* PickyPodWed-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F53C1AB394FBB3469687562607063648 /* PickyPodWed-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1FB96372FA60745A7D4BE2BC3CBA9332 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F18652C32F3FC8E056A5C76754301EA3;
+			remoteInfo = "Pods-PickyPodWed_Example";
+		};
+		3C45BC334D02AD5F9A626B05E31C5D78 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 91F670B3A4D37D6940EAB49A32E99C31;
+			remoteInfo = PickyPodWed;
+		};
+		86ABDA66D6EBC97E73F9B17DA04E11F5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 91F670B3A4D37D6940EAB49A32E99C31;
+			remoteInfo = PickyPodWed;
+		};
+		F5F32314AEB6D80C2E337C31F78EBC0B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E5ECA797501C74A8846DFDC063DC9BF8;
+			remoteInfo = "PickyPodWed-PickyPodWed";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		040B53F60086A71184C78995F5E0DAD1 /* Pods-PickyPodWed_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PickyPodWed_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		13CEA5288C5E811AED191D52CCB97D52 /* Pods-PickyPodWed_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PickyPodWed_Example-resources.sh"; sourceTree = "<group>"; };
+		1D37AA389F2849EE88F4D724B75E5932 /* Pods-PickyPodWed_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-PickyPodWed_Tests.modulemap"; sourceTree = "<group>"; };
+		234AB127BC340626F58E45AB7B36E61C /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		2927DBC44639847ED134E76C9076FA3F /* PickyPodWed.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PickyPodWed.xcconfig; sourceTree = "<group>"; };
+		2C633D5A793BB98AAEB6F76A0E22DE5A /* Pods-PickyPodWed_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PickyPodWed_Example-umbrella.h"; sourceTree = "<group>"; };
+		30FBF6B987706D60CBB4E7F79DC50140 /* Pods_PickyPodWed_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PickyPodWed_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		34D1BB5F2CC1F1B1B223FDB729204014 /* PickyPodWed.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = PickyPodWed.modulemap; sourceTree = "<group>"; };
+		39B9EA4A72E8BA6B05C9B0D6404B3DFD /* Pods-PickyPodWed_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PickyPodWed_Tests-resources.sh"; sourceTree = "<group>"; };
+		3AC569F2333770CED7003D7270DD3669 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		50672C625082F7F00FA30F5050313E0A /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		533DC12A80646DEADC4DF8A55C7A7164 /* PickyPodWed.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PickyPodWed.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		575138C621A68A8100213B8E /* PickyTesterPod.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickyTesterPod.swift; sourceTree = "<group>"; };
+		5751390521A68D7600213B8E /* .gitkeep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
+		59BA6DDA843EB9F7FEB84903EB70BE8F /* PickyPodWed-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PickyPodWed-prefix.pch"; sourceTree = "<group>"; };
+		5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		5A55B0BE3699894D307885DC1403EFB2 /* Pods-PickyPodWed_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PickyPodWed_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		63364FB11FB85BB0A91258A36EB73184 /* Pods_PickyPodWed_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PickyPodWed_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6B54CF00818358048E89083D6784D47D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		756944A664585A1A104437FB6683C6C7 /* Pods-PickyPodWed_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PickyPodWed_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		785D7F076C3E1E9B52E9358F34ACCFE2 /* Pods-PickyPodWed_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PickyPodWed_Example-frameworks.sh"; sourceTree = "<group>"; };
+		8E3C03FBEAF3E14CCE00010FCB4E19AB /* Pods-PickyPodWed_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PickyPodWed_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		95A9A871CF196F0D0143BAC722F0F8F4 /* Pods-PickyPodWed_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PickyPodWed_Tests-dummy.m"; sourceTree = "<group>"; };
+		A4EF7404CAACC100FC2030EB47AB18AD /* Pods-PickyPodWed_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PickyPodWed_Example.release.xcconfig"; sourceTree = "<group>"; };
+		A6DB1CCF40A043D77F33944A56310D7F /* Pods-PickyPodWed_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PickyPodWed_Tests-umbrella.h"; sourceTree = "<group>"; };
+		B6E0D230C196C127DA48AC01316EF2D7 /* Pods-PickyPodWed_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PickyPodWed_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		C299AB4180557D42A5DA0557DE68710B /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		C6F37DB18E6DA44C278DE0213BCF8395 /* ResourceBundle-PickyPodWed-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-PickyPodWed-Info.plist"; sourceTree = "<group>"; };
+		CB36B01E3022D7B06C8812735980B5AD /* Pods-PickyPodWed_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PickyPodWed_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		CBDE4933D07B3BB41F4397D39B908B50 /* Pods-PickyPodWed_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PickyPodWed_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		CE9E77C1F54CF8F36A97557BBE0EEE1C /* PickyPodWed.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = PickyPodWed.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		D502CF05753CEA94DF554DD9BEF1D85B /* PickyPodWed.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PickyPodWed.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		E3B7910C88B07FC4117C04A1EA1C573C /* Pods-PickyPodWed_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-PickyPodWed_Example.modulemap"; sourceTree = "<group>"; };
+		E841FC605E901F1CD157CC5970E365AF /* PickyPodWed-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "PickyPodWed-dummy.m"; sourceTree = "<group>"; };
+		EF671A8B09920770F80CFA0FFFBFA5D1 /* Pods-PickyPodWed_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PickyPodWed_Example-dummy.m"; sourceTree = "<group>"; };
+		EF79ABAE7A97D70DDB2ADC6C5DCC953F /* Pods-PickyPodWed_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PickyPodWed_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		F53C1AB394FBB3469687562607063648 /* PickyPodWed-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PickyPodWed-umbrella.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		40480EE2154E2272F19A009DD02EDB9B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18296AF2EDEBD6127A7FE47A82DD5F66 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		67C70D504749221069FBA70CE99A2CA3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9333B40E9081187F62ADCB6D54EC731C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B96AFA3936E6C3682751DFD2E228B068 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88516C05B0F1692B5161402A3E3560F5 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECFEB571B9CEE7BF3DFC5E30F8D41629 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		020E671D964593753F9263B9E4B8E8F5 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				147C86AC12DCF6CC1815E569A56899EB /* Pods-PickyPodWed_Example */,
+				BC3F710F92933CB97E9D11FE5AE3558A /* Pods-PickyPodWed_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		147C86AC12DCF6CC1815E569A56899EB /* Pods-PickyPodWed_Example */ = {
+			isa = PBXGroup;
+			children = (
+				3AC569F2333770CED7003D7270DD3669 /* Info.plist */,
+				E3B7910C88B07FC4117C04A1EA1C573C /* Pods-PickyPodWed_Example.modulemap */,
+				EF79ABAE7A97D70DDB2ADC6C5DCC953F /* Pods-PickyPodWed_Example-acknowledgements.markdown */,
+				5A55B0BE3699894D307885DC1403EFB2 /* Pods-PickyPodWed_Example-acknowledgements.plist */,
+				EF671A8B09920770F80CFA0FFFBFA5D1 /* Pods-PickyPodWed_Example-dummy.m */,
+				785D7F076C3E1E9B52E9358F34ACCFE2 /* Pods-PickyPodWed_Example-frameworks.sh */,
+				13CEA5288C5E811AED191D52CCB97D52 /* Pods-PickyPodWed_Example-resources.sh */,
+				2C633D5A793BB98AAEB6F76A0E22DE5A /* Pods-PickyPodWed_Example-umbrella.h */,
+				756944A664585A1A104437FB6683C6C7 /* Pods-PickyPodWed_Example.debug.xcconfig */,
+				A4EF7404CAACC100FC2030EB47AB18AD /* Pods-PickyPodWed_Example.release.xcconfig */,
+			);
+			name = "Pods-PickyPodWed_Example";
+			path = "Target Support Files/Pods-PickyPodWed_Example";
+			sourceTree = "<group>";
+		};
+		16F7865D58A0731E9EC70475D9FE4127 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				73C1E9B05B7D027AA27919584840FD5D /* PickyPodWed */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		2C4DF3E0CD2613A8A2C7842EDC4F354A /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				6B54CF00818358048E89083D6784D47D /* Info.plist */,
+				34D1BB5F2CC1F1B1B223FDB729204014 /* PickyPodWed.modulemap */,
+				2927DBC44639847ED134E76C9076FA3F /* PickyPodWed.xcconfig */,
+				E841FC605E901F1CD157CC5970E365AF /* PickyPodWed-dummy.m */,
+				59BA6DDA843EB9F7FEB84903EB70BE8F /* PickyPodWed-prefix.pch */,
+				F53C1AB394FBB3469687562607063648 /* PickyPodWed-umbrella.h */,
+				C6F37DB18E6DA44C278DE0213BCF8395 /* ResourceBundle-PickyPodWed-Info.plist */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/PickyPodWed";
+			sourceTree = "<group>";
+		};
+		4511342C5E3282A9B37F15EF9D013488 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D502CF05753CEA94DF554DD9BEF1D85B /* PickyPodWed.bundle */,
+				533DC12A80646DEADC4DF8A55C7A7164 /* PickyPodWed.framework */,
+				30FBF6B987706D60CBB4E7F79DC50140 /* Pods_PickyPodWed_Example.framework */,
+				63364FB11FB85BB0A91258A36EB73184 /* Pods_PickyPodWed_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5751390421A68D7600213B8E /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				575138C621A68A8100213B8E /* PickyTesterPod.swift */,
+				5751390521A68D7600213B8E /* .gitkeep */,
+			);
+			name = Classes;
+			path = PickyPodWed/Classes;
+			sourceTree = "<group>";
+		};
+		5E0D919E635D23B70123790B8308F8EF /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		73C1E9B05B7D027AA27919584840FD5D /* PickyPodWed */ = {
+			isa = PBXGroup;
+			children = (
+				5751390421A68D7600213B8E /* Classes */,
+				A1F46C7D4D0EEA4E3EB044783F906A23 /* Pod */,
+				2C4DF3E0CD2613A8A2C7842EDC4F354A /* Support Files */,
+			);
+			name = PickyPodWed;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				16F7865D58A0731E9EC70475D9FE4127 /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				4511342C5E3282A9B37F15EF9D013488 /* Products */,
+				020E671D964593753F9263B9E4B8E8F5 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		A1F46C7D4D0EEA4E3EB044783F906A23 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				C299AB4180557D42A5DA0557DE68710B /* LICENSE */,
+				CE9E77C1F54CF8F36A97557BBE0EEE1C /* PickyPodWed.podspec */,
+				234AB127BC340626F58E45AB7B36E61C /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5E0D919E635D23B70123790B8308F8EF /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BC3F710F92933CB97E9D11FE5AE3558A /* Pods-PickyPodWed_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				50672C625082F7F00FA30F5050313E0A /* Info.plist */,
+				1D37AA389F2849EE88F4D724B75E5932 /* Pods-PickyPodWed_Tests.modulemap */,
+				8E3C03FBEAF3E14CCE00010FCB4E19AB /* Pods-PickyPodWed_Tests-acknowledgements.markdown */,
+				B6E0D230C196C127DA48AC01316EF2D7 /* Pods-PickyPodWed_Tests-acknowledgements.plist */,
+				95A9A871CF196F0D0143BAC722F0F8F4 /* Pods-PickyPodWed_Tests-dummy.m */,
+				CB36B01E3022D7B06C8812735980B5AD /* Pods-PickyPodWed_Tests-frameworks.sh */,
+				39B9EA4A72E8BA6B05C9B0D6404B3DFD /* Pods-PickyPodWed_Tests-resources.sh */,
+				A6DB1CCF40A043D77F33944A56310D7F /* Pods-PickyPodWed_Tests-umbrella.h */,
+				CBDE4933D07B3BB41F4397D39B908B50 /* Pods-PickyPodWed_Tests.debug.xcconfig */,
+				040B53F60086A71184C78995F5E0DAD1 /* Pods-PickyPodWed_Tests.release.xcconfig */,
+			);
+			name = "Pods-PickyPodWed_Tests";
+			path = "Target Support Files/Pods-PickyPodWed_Tests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		C731850C7E82D0DD9AEBDBAB93EDE60A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1ABC846B61FBDB5B74E72300F4F2425E /* Pods-PickyPodWed_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCA19EE7CF3F4F9ABC0665B90020EFEA /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F69F25CCADC395702B48303DAAE0921D /* PickyPodWed-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E54938FDB89A9966502ACE5AA6FBBF42 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E0367E89019E71DABAE07EFC744635B /* Pods-PickyPodWed_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		91F670B3A4D37D6940EAB49A32E99C31 /* PickyPodWed */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 956610AC3B50B68FC63AB351F8C920EE /* Build configuration list for PBXNativeTarget "PickyPodWed" */;
+			buildPhases = (
+				DCA19EE7CF3F4F9ABC0665B90020EFEA /* Headers */,
+				B88A5FEAB3C1C51AA32AFEC862B42D94 /* Sources */,
+				67C70D504749221069FBA70CE99A2CA3 /* Frameworks */,
+				E2A93979AE791818A07FFC7EBB0D775F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				046CC2C209AFBC2B53CC8996020F2369 /* PBXTargetDependency */,
+			);
+			name = PickyPodWed;
+			productName = PickyPodWed;
+			productReference = 533DC12A80646DEADC4DF8A55C7A7164 /* PickyPodWed.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		A15207C8E30B5F1EC25B17B29F06E611 /* Pods-PickyPodWed_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 697E31AED14497A23D07F86092ACFC5A /* Build configuration list for PBXNativeTarget "Pods-PickyPodWed_Tests" */;
+			buildPhases = (
+				E54938FDB89A9966502ACE5AA6FBBF42 /* Headers */,
+				FD993202CF1C47B50CA005E186C2BFD9 /* Sources */,
+				40480EE2154E2272F19A009DD02EDB9B /* Frameworks */,
+				40A1CF07E1896B6D826A2EB6B82E6D0C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0AF3E4CDC51F1BE078A833526DF13B02 /* PBXTargetDependency */,
+				6860C71D6756C47C6E1CFAD87472F0A6 /* PBXTargetDependency */,
+			);
+			name = "Pods-PickyPodWed_Tests";
+			productName = "Pods-PickyPodWed_Tests";
+			productReference = 63364FB11FB85BB0A91258A36EB73184 /* Pods_PickyPodWed_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		E5ECA797501C74A8846DFDC063DC9BF8 /* PickyPodWed-PickyPodWed */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A792D11D081CD62AD81A909ADD055144 /* Build configuration list for PBXNativeTarget "PickyPodWed-PickyPodWed" */;
+			buildPhases = (
+				644517336C81D5EB71841C6CDC1EBF12 /* Sources */,
+				ECFEB571B9CEE7BF3DFC5E30F8D41629 /* Frameworks */,
+				F589EFE43488085E45AC6F6335654FED /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "PickyPodWed-PickyPodWed";
+			productName = "PickyPodWed-PickyPodWed";
+			productReference = D502CF05753CEA94DF554DD9BEF1D85B /* PickyPodWed.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		F18652C32F3FC8E056A5C76754301EA3 /* Pods-PickyPodWed_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 087E80C9D0D0EE6B0E007223863CBD3B /* Build configuration list for PBXNativeTarget "Pods-PickyPodWed_Example" */;
+			buildPhases = (
+				C731850C7E82D0DD9AEBDBAB93EDE60A /* Headers */,
+				3E3B75FDA757633C0B479BA8E15668DE /* Sources */,
+				B96AFA3936E6C3682751DFD2E228B068 /* Frameworks */,
+				6E2675CE0712790E5B37F1CBFC2D6FAD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ABF0FC85C5B0C9F4BD6630E6640B14F2 /* PBXTargetDependency */,
+			);
+			name = "Pods-PickyPodWed_Example";
+			productName = "Pods-PickyPodWed_Example";
+			productReference = 30FBF6B987706D60CBB4E7F79DC50140 /* Pods_PickyPodWed_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+				TargetAttributes = {
+					91F670B3A4D37D6940EAB49A32E99C31 = {
+						LastSwiftMigration = 1000;
+					};
+				};
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 4511342C5E3282A9B37F15EF9D013488 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				91F670B3A4D37D6940EAB49A32E99C31 /* PickyPodWed */,
+				E5ECA797501C74A8846DFDC063DC9BF8 /* PickyPodWed-PickyPodWed */,
+				F18652C32F3FC8E056A5C76754301EA3 /* Pods-PickyPodWed_Example */,
+				A15207C8E30B5F1EC25B17B29F06E611 /* Pods-PickyPodWed_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		40A1CF07E1896B6D826A2EB6B82E6D0C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E2675CE0712790E5B37F1CBFC2D6FAD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E2A93979AE791818A07FFC7EBB0D775F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF25DBCABC9ED2F1A423D7BFBC2200A1 /* PickyPodWed.bundle in Resources */,
+				5751390621A68D7600213B8E /* .gitkeep in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F589EFE43488085E45AC6F6335654FED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3E3B75FDA757633C0B479BA8E15668DE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F9CE7A122175E3B9DE6B07C5D7FE100 /* Pods-PickyPodWed_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		644517336C81D5EB71841C6CDC1EBF12 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B88A5FEAB3C1C51AA32AFEC862B42D94 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C5A6C64E473170DB8566065427D3E59 /* PickyPodWed-dummy.m in Sources */,
+				575138C721A68A8100213B8E /* PickyTesterPod.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD993202CF1C47B50CA005E186C2BFD9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				818E1299545E6997175F23385CBB1C4F /* Pods-PickyPodWed_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		046CC2C209AFBC2B53CC8996020F2369 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "PickyPodWed-PickyPodWed";
+			target = E5ECA797501C74A8846DFDC063DC9BF8 /* PickyPodWed-PickyPodWed */;
+			targetProxy = F5F32314AEB6D80C2E337C31F78EBC0B /* PBXContainerItemProxy */;
+		};
+		0AF3E4CDC51F1BE078A833526DF13B02 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = PickyPodWed;
+			target = 91F670B3A4D37D6940EAB49A32E99C31 /* PickyPodWed */;
+			targetProxy = 3C45BC334D02AD5F9A626B05E31C5D78 /* PBXContainerItemProxy */;
+		};
+		6860C71D6756C47C6E1CFAD87472F0A6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-PickyPodWed_Example";
+			target = F18652C32F3FC8E056A5C76754301EA3 /* Pods-PickyPodWed_Example */;
+			targetProxy = 1FB96372FA60745A7D4BE2BC3CBA9332 /* PBXContainerItemProxy */;
+		};
+		ABF0FC85C5B0C9F4BD6630E6640B14F2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = PickyPodWed;
+			target = 91F670B3A4D37D6940EAB49A32E99C31 /* PickyPodWed */;
+			targetProxy = 86ABDA66D6EBC97E73F9B17DA04E11F5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		48C19B0D78AA8B686FE8C7E9EE0C59BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2927DBC44639847ED134E76C9076FA3F /* PickyPodWed.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/PickyPodWed";
+				INFOPLIST_FILE = "Target Support Files/PickyPodWed/ResourceBundle-PickyPodWed-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = PickyPodWed;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		4E0D46464E16777F665B31BDD657F2EB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2927DBC44639847ED134E76C9076FA3F /* PickyPodWed.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/PickyPodWed/PickyPodWed-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/PickyPodWed/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/PickyPodWed/PickyPodWed.modulemap";
+				PRODUCT_MODULE_NAME = PickyPodWed;
+				PRODUCT_NAME = PickyPodWed;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		56A05ADD3BABDA1B56D1F979845809B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		5DFC150976F289A8E0E5F3986474E817 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2927DBC44639847ED134E76C9076FA3F /* PickyPodWed.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/PickyPodWed/PickyPodWed-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/PickyPodWed/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/PickyPodWed/PickyPodWed.modulemap";
+				PRODUCT_MODULE_NAME = PickyPodWed;
+				PRODUCT_NAME = PickyPodWed;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		848BA3E5E1A538FD50802F044674B4E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2927DBC44639847ED134E76C9076FA3F /* PickyPodWed.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/PickyPodWed";
+				INFOPLIST_FILE = "Target Support Files/PickyPodWed/ResourceBundle-PickyPodWed-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = PickyPodWed;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		BEFDB93BF207328A04F1220475D02C3B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		CA1D50B0E124D18903F4A6D36353A8DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A4EF7404CAACC100FC2030EB47AB18AD /* Pods-PickyPodWed_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-PickyPodWed_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-PickyPodWed_Example/Pods-PickyPodWed_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		DF365EB2AA3B7867A65C9E5221A87E32 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 040B53F60086A71184C78995F5E0DAD1 /* Pods-PickyPodWed_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-PickyPodWed_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-PickyPodWed_Tests/Pods-PickyPodWed_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		DF4547E2EE730F9A936E4E1AF0152106 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 756944A664585A1A104437FB6683C6C7 /* Pods-PickyPodWed_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-PickyPodWed_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-PickyPodWed_Example/Pods-PickyPodWed_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		FC97DA0E2F0CC1C24E02CD36A9087F0B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CBDE4933D07B3BB41F4397D39B908B50 /* Pods-PickyPodWed_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-PickyPodWed_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-PickyPodWed_Tests/Pods-PickyPodWed_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		087E80C9D0D0EE6B0E007223863CBD3B /* Build configuration list for PBXNativeTarget "Pods-PickyPodWed_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF4547E2EE730F9A936E4E1AF0152106 /* Debug */,
+				CA1D50B0E124D18903F4A6D36353A8DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BEFDB93BF207328A04F1220475D02C3B /* Debug */,
+				56A05ADD3BABDA1B56D1F979845809B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		697E31AED14497A23D07F86092ACFC5A /* Build configuration list for PBXNativeTarget "Pods-PickyPodWed_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC97DA0E2F0CC1C24E02CD36A9087F0B /* Debug */,
+				DF365EB2AA3B7867A65C9E5221A87E32 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		956610AC3B50B68FC63AB351F8C920EE /* Build configuration list for PBXNativeTarget "PickyPodWed" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4E0D46464E16777F665B31BDD657F2EB /* Debug */,
+				5DFC150976F289A8E0E5F3986474E817 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A792D11D081CD62AD81A909ADD055144 /* Build configuration list for PBXNativeTarget "PickyPodWed-PickyPodWed" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				48C19B0D78AA8B686FE8C7E9EE0C59BF /* Debug */,
+				848BA3E5E1A538FD50802F044674B4E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
