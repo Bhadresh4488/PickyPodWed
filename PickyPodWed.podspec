@@ -25,7 +25,7 @@ TODO: Add long description of the pod here.
   s.ios.deployment_target = '8.0'
 
   s.source_files = 'PickyPodWed/Classes/**/*'
-  
+  s.swift_version = '>= 3.2, <= 4.0'
   #s.resource_bundles = {
   #  'PickyPodWed' => ['PickyPodWed/Assets/*.png']
   # }
